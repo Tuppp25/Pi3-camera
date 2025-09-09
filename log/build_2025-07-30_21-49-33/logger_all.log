@@ -1,0 +1,298 @@
+[0.736s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.736s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, meson_args=[], ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9d401490>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9d5aa120>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9d5aa120>>)
+[0.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.879s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.879s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.879s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.879s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.879s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.879s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/capstone/camera_ws'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'meson', 'python']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'meson'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'meson', 'python']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'meson'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ignore'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ignore_ament_install'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['colcon_pkg']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'colcon_pkg'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['colcon_meta']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'colcon_meta'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['ros']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ros'
+[0.992s] DEBUG:colcon.colcon_core.package_identification:Package 'src/apriltag_ros' with type 'ros.ament_cmake' and name 'apriltag_ros'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros) by extension 'ignore'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros) by extension 'ignore_ament_install'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros) by extensions ['colcon_pkg']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros) by extension 'colcon_pkg'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros) by extensions ['colcon_meta']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros) by extension 'colcon_meta'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros) by extensions ['ros']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros) by extension 'ros'
+[0.997s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_ros' with type 'ros.ament_cmake' and name 'camera_ros'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/libcamera) by extensions ['ignore', 'ignore_ament_install']
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/libcamera) by extension 'ignore'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/libcamera) by extension 'ignore_ament_install'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/libcamera) by extensions ['colcon_pkg']
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/libcamera) by extension 'colcon_pkg'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/libcamera) by extensions ['colcon_meta']
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/libcamera) by extension 'colcon_meta'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/libcamera) by extensions ['ros']
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/libcamera) by extension 'ros'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/libcamera) by extensions ['cmake', 'meson', 'python']
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/libcamera) by extension 'cmake'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/libcamera) by extension 'meson'
+[1.241s] INFO:colcon.colcon_meson.identification:'libcamera' dependencies: {'', 'libtiff-4', 'gstreamer-video-1.0', 'libjpeg', 'gstreamer-1.0', 'gnutls', 'threads', 'python3', 'yaml-0.1', 'gstreamer-app-1.0', 'libdw', 'libevent_pthreads', 'SDL2', 'gtest', 'lttng-ust', 'glib-2.0', 'libexif', 'libunwind', 'pybind11', 'gstreamer-allocators-1.0', 'libdrm', 'libudev', 'libcros_camera', 'qt6'}
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/libcamera) by extension 'python'
+[1.242s] DEBUG:colcon.colcon_core.package_identification:Package 'src/libcamera' with type 'meson' and name 'libcamera'
+[1.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.294s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/capstone/camera_ws/install
+[1.296s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 223 installed packages in /opt/ros/jazzy
+[1.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'libcamera' build argument 'cmake_args' from command line to 'None'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'libcamera' build argument 'cmake_target' from command line to 'None'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'libcamera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'libcamera' build argument 'cmake_clean_cache' from command line to 'False'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'libcamera' build argument 'cmake_clean_first' from command line to 'False'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'libcamera' build argument 'cmake_force_configure' from command line to 'False'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'libcamera' build argument 'meson_args' from command line to '[]'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'libcamera' build argument 'ament_cmake_args' from command line to 'None'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'libcamera' build argument 'catkin_cmake_args' from command line to 'None'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'libcamera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.369s] DEBUG:colcon.colcon_core.verb:Building package 'libcamera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/capstone/camera_ws/build/libcamera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/capstone/camera_ws/install/libcamera', 'merge_install': False, 'meson_args': [], 'path': '/home/capstone/camera_ws/src/libcamera', 'symlink_install': False, 'test_result_base': None}
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'camera_ros' build argument 'cmake_args' from command line to 'None'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'camera_ros' build argument 'cmake_target' from command line to 'None'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'camera_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'camera_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'camera_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'camera_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'camera_ros' build argument 'meson_args' from command line to '[]'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'camera_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'camera_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'camera_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.383s] DEBUG:colcon.colcon_core.verb:Building package 'camera_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/capstone/camera_ws/build/camera_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/capstone/camera_ws/install/camera_ros', 'merge_install': False, 'meson_args': [], 'path': '/home/capstone/camera_ws/src/camera_ros', 'symlink_install': False, 'test_result_base': None}
+[1.396s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_args' from command line to 'None'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_target' from command line to 'None'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'meson_args' from command line to '[]'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.397s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/capstone/camera_ws/build/apriltag_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/capstone/camera_ws/install/apriltag_ros', 'merge_install': False, 'meson_args': [], 'path': '/home/capstone/camera_ws/src/apriltag_ros', 'symlink_install': False, 'test_result_base': None}
+[1.398s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.399s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.412s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.413s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.413s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/capstone/camera_ws/build/libcamera': /usr/bin/meson compile
+[4.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/capstone/camera_ws/build/libcamera' returned '0': /usr/bin/meson compile
+[4.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/capstone/camera_ws/build/libcamera': /usr/bin/meson install
+[5.647s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libcamera)
+[5.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/capstone/camera_ws/build/libcamera' returned '0': /usr/bin/meson install
+[5.664s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/libcamera' for CMake module files
+[5.665s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/libcamera' for CMake config files
+[5.667s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/libcamera/lib'
+[5.667s] Level 1:colcon.colcon_core.shell:create_environment_hook('libcamera', 'ld_library_path_lib')
+[5.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/capstone/camera_ws/install/libcamera/share/libcamera/hook/ld_library_path_lib.ps1'
+[5.669s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/capstone/camera_ws/install/libcamera/share/libcamera/hook/ld_library_path_lib.dsv'
+[5.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/capstone/camera_ws/install/libcamera/share/libcamera/hook/ld_library_path_lib.sh'
+[5.675s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/libcamera/libexec'
+[5.675s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/libcamera/bin'
+[5.675s] Level 1:colcon.colcon_core.shell:create_environment_hook('libcamera', 'path')
+[5.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/capstone/camera_ws/install/libcamera/share/libcamera/hook/path.ps1'
+[5.676s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/capstone/camera_ws/install/libcamera/share/libcamera/hook/path.dsv'
+[5.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/capstone/camera_ws/install/libcamera/share/libcamera/hook/path.sh'
+[5.678s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/libcamera/lib/pkgconfig/libcamera.pc'
+[5.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('libcamera', 'pkg_config')
+[5.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/capstone/camera_ws/install/libcamera/share/libcamera/hook/pkg_config.ps1'
+[5.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/capstone/camera_ws/install/libcamera/share/libcamera/hook/pkg_config.dsv'
+[5.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/capstone/camera_ws/install/libcamera/share/libcamera/hook/pkg_config.sh'
+[5.682s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/libcamera/lib/python3.12/site-packages'
+[5.682s] Level 1:colcon.colcon_core.shell:create_environment_hook('libcamera', 'pythonpath')
+[5.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/capstone/camera_ws/install/libcamera/share/libcamera/hook/pythonpath.ps1'
+[5.683s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/capstone/camera_ws/install/libcamera/share/libcamera/hook/pythonpath.dsv'
+[5.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/capstone/camera_ws/install/libcamera/share/libcamera/hook/pythonpath.sh'
+[5.685s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/libcamera/bin'
+[5.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('libcamera', 'pythonscriptspath')
+[5.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/capstone/camera_ws/install/libcamera/share/libcamera/hook/pythonscriptspath.ps1'
+[5.686s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/capstone/camera_ws/install/libcamera/share/libcamera/hook/pythonscriptspath.dsv'
+[5.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/capstone/camera_ws/install/libcamera/share/libcamera/hook/pythonscriptspath.sh'
+[5.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/capstone/camera_ws/install/libcamera/share/libcamera/package.ps1'
+[5.690s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/capstone/camera_ws/install/libcamera/share/libcamera/package.dsv'
+[5.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/capstone/camera_ws/install/libcamera/share/libcamera/package.sh'
+[5.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/capstone/camera_ws/install/libcamera/share/libcamera/package.bash'
+[5.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/capstone/camera_ws/install/libcamera/share/libcamera/package.zsh'
+[5.699s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/capstone/camera_ws/install/libcamera/share/colcon-core/packages/libcamera)
+[5.700s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/capstone/camera_ws/src/camera_ros' with build type 'ament_cmake'
+[5.700s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/capstone/camera_ws/src/camera_ros'
+[5.700s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.700s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/capstone/camera_ws/build/camera_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy LD_LIBRARY_PATH=/home/capstone/camera_ws/install/libcamera/lib:/home/capstone/camera_ws/install/apriltag_ros/lib:/home/capstone/camera_ws/install/camera_ros/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib /usr/bin/cmake /home/capstone/camera_ws/src/camera_ros -DCMAKE_INSTALL_PREFIX=/home/capstone/camera_ws/install/camera_ros
+[7.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/capstone/camera_ws/build/camera_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy LD_LIBRARY_PATH=/home/capstone/camera_ws/install/libcamera/lib:/home/capstone/camera_ws/install/apriltag_ros/lib:/home/capstone/camera_ws/install/camera_ros/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib /usr/bin/cmake /home/capstone/camera_ws/src/camera_ros -DCMAKE_INSTALL_PREFIX=/home/capstone/camera_ws/install/camera_ros
+[7.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/capstone/camera_ws/build/camera_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy LD_LIBRARY_PATH=/home/capstone/camera_ws/install/libcamera/lib:/home/capstone/camera_ws/install/apriltag_ros/lib:/home/capstone/camera_ws/install/camera_ros/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/capstone/camera_ws/build/camera_ros -- -j4 -l4
+[9.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/capstone/camera_ws/build/camera_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy LD_LIBRARY_PATH=/home/capstone/camera_ws/install/libcamera/lib:/home/capstone/camera_ws/install/apriltag_ros/lib:/home/capstone/camera_ws/install/camera_ros/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/capstone/camera_ws/build/camera_ros -- -j4 -l4
+[9.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/capstone/camera_ws/build/camera_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy LD_LIBRARY_PATH=/home/capstone/camera_ws/install/libcamera/lib:/home/capstone/camera_ws/install/apriltag_ros/lib:/home/capstone/camera_ws/install/camera_ros/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib /usr/bin/cmake --install /home/capstone/camera_ws/build/camera_ros
+[10.012s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_ros)
+[10.013s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/camera_ros' for CMake module files
+[10.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/capstone/camera_ws/build/camera_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy LD_LIBRARY_PATH=/home/capstone/camera_ws/install/libcamera/lib:/home/capstone/camera_ws/install/apriltag_ros/lib:/home/capstone/camera_ws/install/camera_ros/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib /usr/bin/cmake --install /home/capstone/camera_ws/build/camera_ros
+[10.014s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/camera_ros' for CMake config files
+[10.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_ros', 'cmake_prefix_path')
+[10.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/capstone/camera_ws/install/camera_ros/share/camera_ros/hook/cmake_prefix_path.ps1'
+[10.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/capstone/camera_ws/install/camera_ros/share/camera_ros/hook/cmake_prefix_path.dsv'
+[10.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/capstone/camera_ws/install/camera_ros/share/camera_ros/hook/cmake_prefix_path.sh'
+[10.017s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/camera_ros/lib'
+[10.017s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_ros', 'ld_library_path_lib')
+[10.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/capstone/camera_ws/install/camera_ros/share/camera_ros/hook/ld_library_path_lib.ps1'
+[10.018s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/capstone/camera_ws/install/camera_ros/share/camera_ros/hook/ld_library_path_lib.dsv'
+[10.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/capstone/camera_ws/install/camera_ros/share/camera_ros/hook/ld_library_path_lib.sh'
+[10.019s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/camera_ros/bin'
+[10.019s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/camera_ros/lib/pkgconfig/camera_ros.pc'
+[10.020s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/camera_ros/lib/python3.12/site-packages'
+[10.020s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/camera_ros/bin'
+[10.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/capstone/camera_ws/install/camera_ros/share/camera_ros/package.ps1'
+[10.021s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/capstone/camera_ws/install/camera_ros/share/camera_ros/package.dsv'
+[10.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/capstone/camera_ws/install/camera_ros/share/camera_ros/package.sh'
+[10.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/capstone/camera_ws/install/camera_ros/share/camera_ros/package.bash'
+[10.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/capstone/camera_ws/install/camera_ros/share/camera_ros/package.zsh'
+[10.024s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/capstone/camera_ws/install/camera_ros/share/colcon-core/packages/camera_ros)
+[10.025s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_ros)
+[10.026s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/camera_ros' for CMake module files
+[10.027s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/camera_ros' for CMake config files
+[10.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_ros', 'cmake_prefix_path')
+[10.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/capstone/camera_ws/install/camera_ros/share/camera_ros/hook/cmake_prefix_path.ps1'
+[10.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/capstone/camera_ws/install/camera_ros/share/camera_ros/hook/cmake_prefix_path.dsv'
+[10.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/capstone/camera_ws/install/camera_ros/share/camera_ros/hook/cmake_prefix_path.sh'
+[10.030s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/camera_ros/lib'
+[10.030s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_ros', 'ld_library_path_lib')
+[10.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/capstone/camera_ws/install/camera_ros/share/camera_ros/hook/ld_library_path_lib.ps1'
+[10.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/capstone/camera_ws/install/camera_ros/share/camera_ros/hook/ld_library_path_lib.dsv'
+[10.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/capstone/camera_ws/install/camera_ros/share/camera_ros/hook/ld_library_path_lib.sh'
+[10.034s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/camera_ros/bin'
+[10.034s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/camera_ros/lib/pkgconfig/camera_ros.pc'
+[10.035s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/camera_ros/lib/python3.12/site-packages'
+[10.035s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/camera_ros/bin'
+[10.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/capstone/camera_ws/install/camera_ros/share/camera_ros/package.ps1'
+[10.036s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/capstone/camera_ws/install/camera_ros/share/camera_ros/package.dsv'
+[10.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/capstone/camera_ws/install/camera_ros/share/camera_ros/package.sh'
+[10.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/capstone/camera_ws/install/camera_ros/share/camera_ros/package.bash'
+[10.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/capstone/camera_ws/install/camera_ros/share/camera_ros/package.zsh'
+[10.039s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/capstone/camera_ws/install/camera_ros/share/colcon-core/packages/camera_ros)
+[10.040s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/capstone/camera_ws/src/apriltag_ros' with build type 'ament_cmake'
+[10.040s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/capstone/camera_ws/src/apriltag_ros'
+[10.041s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.041s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/capstone/camera_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=/home/capstone/camera_ws/install/camera_ros:/home/capstone/camera_ws/install/apriltag_ros:/opt/ros/jazzy LD_LIBRARY_PATH=/home/capstone/camera_ws/install/camera_ros/lib:/home/capstone/camera_ws/install/libcamera/lib:/home/capstone/camera_ws/install/apriltag_ros/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib /usr/bin/cmake /home/capstone/camera_ws/src/apriltag_ros -DCMAKE_INSTALL_PREFIX=/home/capstone/camera_ws/install/apriltag_ros
+[11.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/capstone/camera_ws/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=/home/capstone/camera_ws/install/camera_ros:/home/capstone/camera_ws/install/apriltag_ros:/opt/ros/jazzy LD_LIBRARY_PATH=/home/capstone/camera_ws/install/camera_ros/lib:/home/capstone/camera_ws/install/libcamera/lib:/home/capstone/camera_ws/install/apriltag_ros/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib /usr/bin/cmake /home/capstone/camera_ws/src/apriltag_ros -DCMAKE_INSTALL_PREFIX=/home/capstone/camera_ws/install/apriltag_ros
+[11.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/capstone/camera_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=/home/capstone/camera_ws/install/camera_ros:/home/capstone/camera_ws/install/apriltag_ros:/opt/ros/jazzy LD_LIBRARY_PATH=/home/capstone/camera_ws/install/camera_ros/lib:/home/capstone/camera_ws/install/libcamera/lib:/home/capstone/camera_ws/install/apriltag_ros/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/capstone/camera_ws/build/apriltag_ros -- -j4 -l4
+[11.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/capstone/camera_ws/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=/home/capstone/camera_ws/install/camera_ros:/home/capstone/camera_ws/install/apriltag_ros:/opt/ros/jazzy LD_LIBRARY_PATH=/home/capstone/camera_ws/install/camera_ros/lib:/home/capstone/camera_ws/install/libcamera/lib:/home/capstone/camera_ws/install/apriltag_ros/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/capstone/camera_ws/build/apriltag_ros -- -j4 -l4
+[11.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/capstone/camera_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=/home/capstone/camera_ws/install/camera_ros:/home/capstone/camera_ws/install/apriltag_ros:/opt/ros/jazzy LD_LIBRARY_PATH=/home/capstone/camera_ws/install/camera_ros/lib:/home/capstone/camera_ws/install/libcamera/lib:/home/capstone/camera_ws/install/apriltag_ros/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib /usr/bin/cmake --install /home/capstone/camera_ws/build/apriltag_ros
+[11.853s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_ros)
+[11.853s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/apriltag_ros' for CMake module files
+[11.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/capstone/camera_ws/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=/home/capstone/camera_ws/install/camera_ros:/home/capstone/camera_ws/install/apriltag_ros:/opt/ros/jazzy LD_LIBRARY_PATH=/home/capstone/camera_ws/install/camera_ros/lib:/home/capstone/camera_ws/install/libcamera/lib:/home/capstone/camera_ws/install/apriltag_ros/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib /usr/bin/cmake --install /home/capstone/camera_ws/build/apriltag_ros
+[11.855s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/apriltag_ros' for CMake config files
+[11.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'cmake_prefix_path')
+[11.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.ps1'
+[11.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.dsv'
+[11.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.sh'
+[11.865s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/apriltag_ros/lib'
+[11.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'ld_library_path_lib')
+[11.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.ps1'
+[11.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.dsv'
+[11.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.sh'
+[11.867s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/apriltag_ros/bin'
+[11.867s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/apriltag_ros/lib/pkgconfig/apriltag_ros.pc'
+[11.868s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/apriltag_ros/lib/python3.12/site-packages'
+[11.868s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/apriltag_ros/bin'
+[11.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/package.ps1'
+[11.869s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/package.dsv'
+[11.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/package.sh'
+[11.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/package.bash'
+[11.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/package.zsh'
+[11.872s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/capstone/camera_ws/install/apriltag_ros/share/colcon-core/packages/apriltag_ros)
+[11.874s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_ros)
+[11.874s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/apriltag_ros' for CMake module files
+[11.875s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/apriltag_ros' for CMake config files
+[11.875s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'cmake_prefix_path')
+[11.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.ps1'
+[11.876s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.dsv'
+[11.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.sh'
+[11.877s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/apriltag_ros/lib'
+[11.878s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'ld_library_path_lib')
+[11.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.ps1'
+[11.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.dsv'
+[11.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.sh'
+[11.880s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/apriltag_ros/bin'
+[11.880s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/apriltag_ros/lib/pkgconfig/apriltag_ros.pc'
+[11.880s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/apriltag_ros/lib/python3.12/site-packages'
+[11.881s] Level 1:colcon.colcon_core.environment:checking '/home/capstone/camera_ws/install/apriltag_ros/bin'
+[11.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/package.ps1'
+[11.882s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/package.dsv'
+[11.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/package.sh'
+[11.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/package.bash'
+[11.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/package.zsh'
+[11.892s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/capstone/camera_ws/install/apriltag_ros/share/colcon-core/packages/apriltag_ros)
+[11.892s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.893s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.893s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.893s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.907s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[11.908s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.908s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.908s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.909s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[11.909s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.909s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/capstone/camera_ws/install/local_setup.ps1'
+[11.911s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/capstone/camera_ws/install/_local_setup_util_ps1.py'
+[11.916s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/capstone/camera_ws/install/setup.ps1'
+[11.918s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/capstone/camera_ws/install/local_setup.sh'
+[11.920s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/capstone/camera_ws/install/_local_setup_util_sh.py'
+[11.922s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/capstone/camera_ws/install/setup.sh'
+[11.925s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/capstone/camera_ws/install/local_setup.bash'
+[11.928s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/capstone/camera_ws/install/setup.bash'
+[11.930s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/capstone/camera_ws/install/local_setup.zsh'
+[11.932s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/capstone/camera_ws/install/setup.zsh'

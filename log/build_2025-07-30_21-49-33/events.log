@@ -1,0 +1,426 @@
+[0.000000] (-) TimerEvent: {}
+[0.000394] (libcamera) JobQueued: {'identifier': 'libcamera', 'dependencies': OrderedDict()}
+[0.000443] (camera_ros) JobQueued: {'identifier': 'camera_ros', 'dependencies': OrderedDict({'libcamera': '/home/capstone/camera_ws/install/libcamera'})}
+[0.000474] (apriltag_ros) JobQueued: {'identifier': 'apriltag_ros', 'dependencies': OrderedDict({'libcamera': '/home/capstone/camera_ws/install/libcamera', 'camera_ros': '/home/capstone/camera_ws/install/camera_ros'})}
+[0.001124] (libcamera) JobStarted: {'identifier': 'libcamera'}
+[0.024213] (libcamera) JobProgress: {'identifier': 'libcamera', 'progress': 'meson'}
+[0.029489] (libcamera) JobProgress: {'identifier': 'libcamera', 'progress': 'build'}
+[0.029764] (libcamera) Command: {'cmd': ['/usr/bin/meson', 'compile'], 'cwd': '/home/capstone/camera_ws/build/libcamera', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'capstone', 'SSH_CLIENT': '172.20.10.10 58614 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/capstone/camera_ws/install/apriltag_ros/lib:/home/capstone/camera_ws/install/camera_ros/lib:/home/capstone/camera_ws/install/libcamera/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/capstone', 'OLDPWD': '/home/capstone', 'SSH_TTY': '/dev/pts/3', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/capstone/camera_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'capstone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/capstone/camera_ws/install/libcamera/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'PATH': '/home/capstone/camera_ws/install/libcamera/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '24', 'AMENT_PREFIX_PATH': '/home/capstone/camera_ws/install/apriltag_ros:/home/capstone/camera_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/capstone/camera_ws/build/libcamera', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.10 58614 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/capstone/camera_ws/install/libcamera/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/capstone/camera_ws/install/apriltag_ros:/home/capstone/camera_ws/install/camera_ros'}), 'shell': False}
+[0.099665] (-) TimerEvent: {}
+[0.200109] (-) TimerEvent: {}
+[0.300538] (-) TimerEvent: {}
+[0.401018] (-) TimerEvent: {}
+[0.413978] (libcamera) StdoutLine: {'line': b'\x1b[1;32mINFO:\x1b[0m autodetecting backend as ninja\n'}
+[0.420920] (libcamera) StdoutLine: {'line': b'\x1b[1;32mINFO:\x1b[0m calculating backend command to run: /usr/bin/ninja\n'}
+[0.501119] (-) TimerEvent: {}
+[0.563228] (libcamera) StdoutLine: {'line': b'\n'}
+[0.563650] (libcamera) StdoutLine: {'line': b'[0/27] Generating subprojects/libpisp/src/version.cpp with a custom command\x1b[K\n'}
+[0.601274] (-) TimerEvent: {}
+[0.701799] (-) TimerEvent: {}
+[0.802151] (-) TimerEvent: {}
+[0.902523] (-) TimerEvent: {}
+[0.929622] (libcamera) StdoutLine: {'line': b'[0/27] Generating src/libcamera/version.cpp with a custom command\x1b[K\n'}
+[0.930034] (libcamera) StdoutLine: {'line': b'[1/27] Generating subprojects/libpisp/src/version.cpp with a custom command\x1b[K\n'}
+[1.002643] (-) TimerEvent: {}
+[1.103030] (-) TimerEvent: {}
+[1.203389] (-) TimerEvent: {}
+[1.303765] (-) TimerEvent: {}
+[1.404159] (-) TimerEvent: {}
+[1.504535] (-) TimerEvent: {}
+[1.604930] (-) TimerEvent: {}
+[1.705367] (-) TimerEvent: {}
+[1.806025] (-) TimerEvent: {}
+[1.906384] (-) TimerEvent: {}
+[1.948399] (libcamera) StdoutLine: {'line': b'[1/27] Compiling C++ object subprojects/libpisp/src/libpisp.so.1.2.0.p/meson-generated_.._version.cpp.o\x1b[K\n'}
+[1.949040] (libcamera) StdoutLine: {'line': b'[2/27] Compiling C++ object subprojects/libpisp/src/libpisp.so.1.2.0.p/meson-generated_.._version.cpp.o\x1b[K\n'}
+[2.006518] (-) TimerEvent: {}
+[2.107028] (-) TimerEvent: {}
+[2.207477] (-) TimerEvent: {}
+[2.267482] (libcamera) StdoutLine: {'line': b'[2/27] Linking target subprojects/libpisp/src/libpisp.so.1.2.0\x1b[K\n'}
+[2.307615] (-) TimerEvent: {}
+[2.307983] (libcamera) StdoutLine: {'line': b'[3/27] Generating src/libcamera/version.cpp with a custom command\x1b[K\n'}
+[2.308263] (libcamera) StdoutLine: {'line': b'[4/26] Linking target subprojects/libpisp/src/libpisp.so.1.2.0\x1b[K\n'}
+[2.407717] (-) TimerEvent: {}
+[2.473149] (libcamera) StdoutLine: {'line': b'[4/26] Generating symbol file subprojects/libpisp/src/libpisp.so.1.2.0.p/libpisp.so.1.2.0.symbols\x1b[K\n'}
+[2.473522] (libcamera) StdoutLine: {'line': b'[5/26] Generating symbol file subprojects/libpisp/src/libpisp.so.1.2.0.p/libpisp.so.1.2.0.symbols\x1b[K\n'}
+[2.507962] (-) TimerEvent: {}
+[2.602325] (libcamera) CommandEnded: {'returncode': 0}
+[2.602999] (libcamera) JobProgress: {'identifier': 'libcamera', 'progress': 'install'}
+[2.608351] (-) TimerEvent: {}
+[2.610395] (libcamera) Command: {'cmd': ['/usr/bin/meson', 'install'], 'cwd': '/home/capstone/camera_ws/build/libcamera', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'capstone', 'SSH_CLIENT': '172.20.10.10 58614 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/capstone/camera_ws/install/apriltag_ros/lib:/home/capstone/camera_ws/install/camera_ros/lib:/home/capstone/camera_ws/install/libcamera/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/capstone', 'OLDPWD': '/home/capstone', 'SSH_TTY': '/dev/pts/3', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/capstone/camera_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'capstone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/capstone/camera_ws/install/libcamera/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'PATH': '/home/capstone/camera_ws/install/libcamera/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '24', 'AMENT_PREFIX_PATH': '/home/capstone/camera_ws/install/apriltag_ros:/home/capstone/camera_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/capstone/camera_ws/build/libcamera', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.10 58614 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/capstone/camera_ws/install/libcamera/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/capstone/camera_ws/install/apriltag_ros:/home/capstone/camera_ws/install/camera_ros'}), 'shell': False}
+[2.708645] (-) TimerEvent: {}
+[2.809058] (-) TimerEvent: {}
+[2.909387] (-) TimerEvent: {}
+[2.972925] (libcamera) StdoutLine: {'line': b"ninja: Entering directory `/home/capstone/camera_ws/build/libcamera'\n"}
+[2.990616] (libcamera) StdoutLine: {'line': b'\n'}
+[2.991182] (libcamera) StdoutLine: {'line': b'[0/27] Generating subprojects/libpisp/src/version.cpp with a custom command\x1b[K\n'}
+[3.009636] (-) TimerEvent: {}
+[3.110042] (-) TimerEvent: {}
+[3.171083] (libcamera) StdoutLine: {'line': b'[0/27] Generating src/libcamera/version.cpp with a custom command\x1b[K\n'}
+[3.171434] (libcamera) StdoutLine: {'line': b'[1/27] Generating subprojects/libpisp/src/version.cpp with a custom command\x1b[K\n'}
+[3.210215] (-) TimerEvent: {}
+[3.215413] (libcamera) StdoutLine: {'line': b'[1/27] Compiling C++ object subprojects/libpisp/src/libpisp.so.1.2.0.p/meson-generated_.._version.cpp.o\x1b[K\n'}
+[3.310319] (-) TimerEvent: {}
+[3.410710] (-) TimerEvent: {}
+[3.502216] (libcamera) StdoutLine: {'line': b'[2/27] Generating src/libcamera/version.cpp with a custom command\x1b[K\n'}
+[3.502597] (libcamera) StdoutLine: {'line': b'[3/26] Compiling C++ object subprojects/libpisp/src/libpisp.so.1.2.0.p/meson-generated_.._version.cpp.o\x1b[K\n'}
+[3.510831] (-) TimerEvent: {}
+[3.611235] (-) TimerEvent: {}
+[3.673435] (libcamera) StdoutLine: {'line': b'[3/26] Linking target subprojects/libpisp/src/libpisp.so.1.2.0\x1b[K\n'}
+[3.673773] (libcamera) StdoutLine: {'line': b'[4/26] Linking target subprojects/libpisp/src/libpisp.so.1.2.0\x1b[K\n'}
+[3.711319] (-) TimerEvent: {}
+[3.811199] (libcamera) StdoutLine: {'line': b'[4/26] Generating symbol file subprojects/libpisp/src/libpisp.so.1.2.0.p/libpisp.so.1.2.0.symbols\x1b[K\n'}
+[3.811660] (-) TimerEvent: {}
+[3.811947] (libcamera) StdoutLine: {'line': b'[5/26] Generating symbol file subprojects/libpisp/src/libpisp.so.1.2.0.p/libpisp.so.1.2.0.symbols\x1b[K\n'}
+[3.819538] (libcamera) StdoutLine: {'line': b'Installing include/libcamera/ipa/core_ipa_interface.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/ipa\n'}
+[3.820452] (libcamera) StdoutLine: {'line': b'Installing include/libcamera/ipa/mali-c55_ipa_interface.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/ipa\n'}
+[3.821163] (libcamera) StdoutLine: {'line': b'Installing include/libcamera/ipa/rkisp1_ipa_interface.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/ipa\n'}
+[3.821686] (libcamera) StdoutLine: {'line': b'Installing include/libcamera/ipa/raspberrypi_ipa_interface.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/ipa\n'}
+[3.822273] (libcamera) StdoutLine: {'line': b'Installing include/libcamera/ipa/soft_ipa_interface.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/ipa\n'}
+[3.822866] (libcamera) StdoutLine: {'line': b'Installing include/libcamera/control_ids.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.823898] (libcamera) StdoutLine: {'line': b'Installing include/libcamera/property_ids.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.824466] (libcamera) StdoutLine: {'line': b'Installing include/libcamera/formats.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.825146] (libcamera) StdoutLine: {'line': b'Installing include/libcamera/libcamera.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.825814] (libcamera) StdoutLine: {'line': b'Installing src/libcamera/base/libcamera-base.so.0.5.1 to /home/capstone/camera_ws/install/libcamera/lib\n'}
+[3.830676] (libcamera) StdoutLine: {'line': b'Installing subprojects/libpisp/src/libpisp.so.1.2.0 to /home/capstone/camera_ws/install/libcamera/lib\n'}
+[3.832626] (libcamera) StdoutLine: {'line': b'Installing src/libcamera/libcamera.so.0.5.1 to /home/capstone/camera_ws/install/libcamera/lib\n'}
+[3.873872] (libcamera) StdoutLine: {'line': b'Installing src/libcamera/proxy/worker/mali-c55_ipa_proxy to /home/capstone/camera_ws/install/libcamera/libexec/libcamera\n'}
+[3.877592] (libcamera) StdoutLine: {'line': b'Installing src/libcamera/proxy/worker/rkisp1_ipa_proxy to /home/capstone/camera_ws/install/libcamera/libexec/libcamera\n'}
+[3.880851] (libcamera) StdoutLine: {'line': b'Installing src/libcamera/proxy/worker/raspberrypi_ipa_proxy to /home/capstone/camera_ws/install/libcamera/libexec/libcamera\n'}
+[3.884494] (libcamera) StdoutLine: {'line': b'Installing src/libcamera/proxy/worker/soft_ipa_proxy to /home/capstone/camera_ws/install/libcamera/libexec/libcamera\n'}
+[3.887537] (libcamera) StdoutLine: {'line': b'Installing src/ipa/mali-c55/ipa_mali_c55.so to /home/capstone/camera_ws/install/libcamera/lib/libcamera/ipa\n'}
+[3.893595] (libcamera) StdoutLine: {'line': b'Installing src/ipa/rkisp1/ipa_rkisp1.so to /home/capstone/camera_ws/install/libcamera/lib/libcamera/ipa\n'}
+[3.902482] (libcamera) StdoutLine: {'line': b'Installing src/ipa/rpi/pisp/ipa_rpi_pisp.so to /home/capstone/camera_ws/install/libcamera/lib/libcamera/ipa\n'}
+[3.911768] (-) TimerEvent: {}
+[3.916714] (libcamera) StdoutLine: {'line': b'Installing src/ipa/rpi/vc4/ipa_rpi_vc4.so to /home/capstone/camera_ws/install/libcamera/lib/libcamera/ipa\n'}
+[3.930562] (libcamera) StdoutLine: {'line': b'Installing src/ipa/simple/ipa_soft_simple.so to /home/capstone/camera_ws/install/libcamera/lib/libcamera/ipa\n'}
+[3.936289] (libcamera) StdoutLine: {'line': b'Installing src/apps/lc-compliance/lc-compliance to /home/capstone/camera_ws/install/libcamera/bin\n'}
+[3.948189] (libcamera) StdoutLine: {'line': b'Installing src/apps/cam/cam to /home/capstone/camera_ws/install/libcamera/bin\n'}
+[3.954882] (libcamera) StdoutLine: {'line': b'Installing src/py/libcamera/_libcamera.so to /home/capstone/camera_ws/install/libcamera/lib/python3.12/site-packages/libcamera\n'}
+[3.981269] (libcamera) StdoutLine: {'line': b'Installing src/v4l2/v4l2-compat.so to /home/capstone/camera_ws/install/libcamera/libexec/libcamera\n'}
+[3.985384] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/base/bound_method.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/base\n'}
+[3.985751] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/base/class.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/base\n'}
+[3.986041] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/base/flags.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/base\n'}
+[3.986303] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/base/object.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/base\n'}
+[3.986590] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/base/shared_fd.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/base\n'}
+[3.986864] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/base/signal.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/base\n'}
+[3.987087] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/base/span.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/base\n'}
+[3.987336] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/base/unique_fd.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/base\n'}
+[3.987585] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/ipa/ipa_controls.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/ipa\n'}
+[3.987826] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/ipa/ipa_interface.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/ipa\n'}
+[3.988095] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/ipa/ipa_module_info.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/ipa\n'}
+[3.988334] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/camera.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.988579] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/camera_manager.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.988814] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/color_space.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.989077] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/controls.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.989327] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/fence.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.989566] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/framebuffer.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.989797] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/framebuffer_allocator.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.990047] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/geometry.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.990299] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/logging.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.990524] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/orientation.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.990754] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/pixel_format.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.991009] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/request.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.991243] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/stream.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.991492] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/transform.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.992379] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/common/pisp_common.h to /home/capstone/camera_ws/install/libcamera/include/libpisp/common\n'}
+[3.992726] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/common/logging.hpp to /home/capstone/camera_ws/install/libcamera/include/libpisp/common\n'}
+[3.993612] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/common/shm_mutex.hpp to /home/capstone/camera_ws/install/libcamera/include/libpisp/common\n'}
+[3.994019] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/common/utils.hpp to /home/capstone/camera_ws/install/libcamera/include/libpisp/common\n'}
+[3.994275] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/common/version.hpp to /home/capstone/camera_ws/install/libcamera/include/libpisp/common\n'}
+[3.994777] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/variants/variant.hpp to /home/capstone/camera_ws/install/libcamera/include/libpisp/variants\n'}
+[3.995433] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/frontend/frontend.hpp to /home/capstone/camera_ws/install/libcamera/include/libpisp/frontend\n'}
+[3.995687] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/frontend/pisp_fe_config.h to /home/capstone/camera_ws/install/libcamera/include/libpisp/frontend\n'}
+[3.995961] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/frontend/pisp_statistics.h to /home/capstone/camera_ws/install/libcamera/include/libpisp/frontend\n'}
+[3.996618] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/backend/backend.hpp to /home/capstone/camera_ws/install/libcamera/include/libpisp/backend\n'}
+[3.996895] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/backend/pisp_be_config.h to /home/capstone/camera_ws/install/libcamera/include/libpisp/backend\n'}
+[3.997613] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/backend/tiling/pisp_tiling.hpp to /home/capstone/camera_ws/install/libcamera/include/libpisp/backend/tiling\n'}
+[3.997955] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/backend/tiling/types.hpp to /home/capstone/camera_ws/install/libcamera/include/libpisp/backend/tiling\n'}
+[3.998490] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/helpers/backend_device.hpp to /home/capstone/camera_ws/install/libcamera/include/libpisp/helpers\n'}
+[3.998703] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/helpers/device_fd.hpp to /home/capstone/camera_ws/install/libcamera/include/libpisp/helpers\n'}
+[3.998917] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/helpers/media_device.hpp to /home/capstone/camera_ws/install/libcamera/include/libpisp/helpers\n'}
+[3.999125] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/helpers/v4l2_device.hpp to /home/capstone/camera_ws/install/libcamera/include/libpisp/helpers\n'}
+[3.999366] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/build/libcamera/include/libcamera/version.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[4.000409] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/build/libcamera/meson-private/libcamera-base.pc to /home/capstone/camera_ws/install/libcamera/lib/pkgconfig\n'}
+[4.001026] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/backend/backend_default_config.json to /home/capstone/camera_ws/install/libcamera/share/libpisp\n'}
+[4.001263] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/build/libcamera/meson-private/libpisp.pc to /home/capstone/camera_ws/install/libcamera/lib/pkgconfig\n'}
+[4.002781] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/libcamera/pipeline/rpi/pisp/data/example.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/pipeline/rpi/pisp\n'}
+[4.003340] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/libcamera/pipeline/rpi/vc4/data/example.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/pipeline/rpi/vc4\n'}
+[4.003549] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/libcamera/pipeline/rpi/vc4/data/rpi_apps.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/pipeline/rpi/vc4\n'}
+[4.003758] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/build/libcamera/meson-private/libcamera.pc to /home/capstone/camera_ws/install/libcamera/lib/pkgconfig\n'}
+[4.004830] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/mali-c55/data/imx415.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/mali-c55\n'}
+[4.005437] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/mali-c55/data/uncalibrated.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/mali-c55\n'}
+[4.005657] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rkisp1/data/imx219.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1\n'}
+[4.005907] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rkisp1/data/imx258.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1\n'}
+[4.006155] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rkisp1/data/ov2685.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1\n'}
+[4.006383] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rkisp1/data/ov4689.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1\n'}
+[4.006578] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rkisp1/data/ov5640.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1\n'}
+[4.006842] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rkisp1/data/ov5695.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1\n'}
+[4.007123] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rkisp1/data/ov8858.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1\n'}
+[4.007438] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rkisp1/data/uncalibrated.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1\n'}
+[4.007675] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx219.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[4.008033] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx219_noir.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[4.008433] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx283.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[4.008795] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx290.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[4.009063] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx296.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[4.009399] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx296_mono.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[4.010025] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx378.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[4.010284] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx415.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[4.010521] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx462.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[4.010771] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx477.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[4.011162] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx477_noir.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[4.011501] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx477_scientific.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[4.011750] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx500.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[4.011874] (-) TimerEvent: {}
+[4.012132] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx519.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[4.012430] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx708.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[4.013604] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx708_noir.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[4.013976] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx708_wide.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[4.014314] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx708_wide_noir.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[4.014670] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/ov5647.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[4.015102] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/ov5647_noir.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[4.015452] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/ov64a40.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[4.015766] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/ov9281_mono.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[4.016066] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/se327m12.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[4.016329] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/uncalibrated.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[4.018978] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx219.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[4.019237] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx219_noir.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[4.019467] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx283.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[4.019678] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx290.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[4.019887] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx296.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[4.020099] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx296_mono.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[4.020334] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx327.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[4.020601] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx378.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[4.020857] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx415.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[4.021082] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx462.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[4.021278] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx477.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[4.021496] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx477_noir.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[4.021712] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx477_scientific.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[4.021933] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx500.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[4.022157] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx519.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[4.022358] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx708.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[4.022577] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx708_noir.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[4.022798] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx708_wide.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[4.023040] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx708_wide_noir.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[4.023542] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/ov5647.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[4.023705] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/ov5647_noir.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[4.023810] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/ov64a40.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[4.024033] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/ov7251_mono.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[4.024219] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/ov9281_mono.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[4.024397] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/se327m12.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[4.024602] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/uncalibrated.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[4.025152] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/ipa/simple/data/uncalibrated.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/simple\n'}
+[4.025343] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/src/libcamera/src/py/libcamera/__init__.py to /home/capstone/camera_ws/install/libcamera/lib/python3.12/site-packages/libcamera\n'}
+[4.025539] (libcamera) StdoutLine: {'line': b'Installing /home/capstone/camera_ws/build/libcamera/src/v4l2/libcamerify to /home/capstone/camera_ws/install/libcamera/bin\n'}
+[4.026239] (libcamera) StdoutLine: {'line': b'Installing symlink pointing to libcamera-base.so.0.5.1 to /home/capstone/camera_ws/install/libcamera/lib/libcamera-base.so.0.5\n'}
+[4.026372] (libcamera) StdoutLine: {'line': b'Installing symlink pointing to libcamera-base.so.0.5 to /home/capstone/camera_ws/install/libcamera/lib/libcamera-base.so\n'}
+[4.026492] (libcamera) StdoutLine: {'line': b'Installing symlink pointing to libpisp.so.1.2.0 to /home/capstone/camera_ws/install/libcamera/lib/libpisp.so.1\n'}
+[4.026595] (libcamera) StdoutLine: {'line': b'Installing symlink pointing to libpisp.so.1 to /home/capstone/camera_ws/install/libcamera/lib/libpisp.so\n'}
+[4.026696] (libcamera) StdoutLine: {'line': b'Installing symlink pointing to libcamera.so.0.5.1 to /home/capstone/camera_ws/install/libcamera/lib/libcamera.so.0.5\n'}
+[4.026809] (libcamera) StdoutLine: {'line': b'Installing symlink pointing to libcamera.so.0.5 to /home/capstone/camera_ws/install/libcamera/lib/libcamera.so\n'}
+[4.027445] (libcamera) StdoutLine: {'line': b"Running custom install script '/home/capstone/camera_ws/src/libcamera/src/ipa/ipa-sign-install.sh /home/capstone/camera_ws/build/libcamera/src/ipa-priv-key.pem lib/libcamera/ipa/ipa_mali_c55.so lib/libcamera/ipa/ipa_rkisp1.so lib/libcamera/ipa/ipa_rpi_pisp.so lib/libcamera/ipa/ipa_rpi_vc4.so lib/libcamera/ipa/ipa_soft_simple.so'\n"}
+[4.030158] (libcamera) StdoutLine: {'line': b'Regenerating IPA modules signatures\n'}
+[4.112006] (-) TimerEvent: {}
+[4.212396] (-) TimerEvent: {}
+[4.248235] (libcamera) CommandEnded: {'returncode': 0}
+[4.301078] (libcamera) JobEnded: {'identifier': 'libcamera', 'rc': 0}
+[4.302484] (camera_ros) JobStarted: {'identifier': 'camera_ros'}
+[4.312516] (-) TimerEvent: {}
+[4.313969] (camera_ros) JobProgress: {'identifier': 'camera_ros', 'progress': 'cmake'}
+[4.319978] (camera_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/capstone/camera_ws/src/camera_ros', '-DCMAKE_INSTALL_PREFIX=/home/capstone/camera_ws/install/camera_ros'], 'cwd': '/home/capstone/camera_ws/build/camera_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'capstone', 'SSH_CLIENT': '172.20.10.10 58614 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/capstone/camera_ws/install/libcamera/lib:/home/capstone/camera_ws/install/apriltag_ros/lib:/home/capstone/camera_ws/install/camera_ros/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/capstone', 'OLDPWD': '/home/capstone', 'SSH_TTY': '/dev/pts/3', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/capstone/camera_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'capstone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/capstone/camera_ws/install/libcamera/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'PATH': '/home/capstone/camera_ws/install/libcamera/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '24', 'AMENT_PREFIX_PATH': '/home/capstone/camera_ws/install/apriltag_ros:/home/capstone/camera_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/capstone/camera_ws/build/camera_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.10 58614 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/capstone/camera_ws/install/libcamera/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/capstone/camera_ws/install/apriltag_ros:/home/capstone/camera_ws/install/camera_ros:/opt/ros/jazzy'}), 'shell': False}
+[4.412635] (-) TimerEvent: {}
+[4.513051] (-) TimerEvent: {}
+[4.535923] (camera_ros) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[4.613267] (-) TimerEvent: {}
+[4.713792] (-) TimerEvent: {}
+[4.814145] (-) TimerEvent: {}
+[4.914539] (-) TimerEvent: {}
+[4.948735] (camera_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.013312] (camera_ros) StdoutLine: {'line': b'-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[5.014604] (-) TimerEvent: {}
+[5.089922] (camera_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[5.114203] (camera_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[5.114678] (-) TimerEvent: {}
+[5.149169] (camera_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.184361] (camera_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.214809] (-) TimerEvent: {}
+[5.315169] (-) TimerEvent: {}
+[5.331823] (camera_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[5.337468] (camera_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.415288] (-) TimerEvent: {}
+[5.471674] (camera_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.515403] (-) TimerEvent: {}
+[5.615745] (-) TimerEvent: {}
+[5.622417] (camera_ros) StdoutLine: {'line': b'-- Found rclcpp_components: 28.1.10 (/opt/ros/jazzy/share/rclcpp_components/cmake)\n'}
+[5.688164] (camera_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[5.715872] (-) TimerEvent: {}
+[5.808637] (camera_ros) StdoutLine: {'line': b'-- Found camera_info_manager: 5.1.7 (/opt/ros/jazzy/share/camera_info_manager/cmake)\n'}
+[5.815966] (-) TimerEvent: {}
+[5.819565] (camera_ros) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'\n"}
+[5.894110] (camera_ros) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[5.916114] (-) TimerEvent: {}
+[5.930000] (camera_ros) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[6.016219] (-) TimerEvent: {}
+[6.116549] (-) TimerEvent: {}
+[6.177511] (camera_ros) StdoutLine: {'line': b"-- Added test 'clang_format' to check C / C++ code style\n"}
+[6.184843] (camera_ros) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.185102] (camera_ros) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.185215] (camera_ros) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.188731] (camera_ros) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.188887] (camera_ros) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[6.190851] (camera_ros) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.192373] (camera_ros) StdoutLine: {'line': b"-- Added test 'mypy' to statically type check Python code.\n"}
+[6.193939] (camera_ros) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.195557] (camera_ros) StdoutLine: {'line': b"-- Added test 'pyflakes' to perform static code analysis on Python code\n"}
+[6.197187] (camera_ros) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.203559] (camera_ros) StdoutLine: {'line': b'-- Configuring done (1.7s)\n'}
+[6.216663] (-) TimerEvent: {}
+[6.299470] (camera_ros) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[6.316768] (-) TimerEvent: {}
+[6.320955] (camera_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/capstone/camera_ws/build/camera_ros\n'}
+[6.348779] (camera_ros) CommandEnded: {'returncode': 0}
+[6.349786] (camera_ros) JobProgress: {'identifier': 'camera_ros', 'progress': 'build'}
+[6.350693] (camera_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/capstone/camera_ws/build/camera_ros', '--', '-j4', '-l4'], 'cwd': '/home/capstone/camera_ws/build/camera_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'capstone', 'SSH_CLIENT': '172.20.10.10 58614 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/capstone/camera_ws/install/libcamera/lib:/home/capstone/camera_ws/install/apriltag_ros/lib:/home/capstone/camera_ws/install/camera_ros/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/capstone', 'OLDPWD': '/home/capstone', 'SSH_TTY': '/dev/pts/3', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/capstone/camera_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'capstone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/capstone/camera_ws/install/libcamera/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'PATH': '/home/capstone/camera_ws/install/libcamera/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '24', 'AMENT_PREFIX_PATH': '/home/capstone/camera_ws/install/apriltag_ros:/home/capstone/camera_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/capstone/camera_ws/build/camera_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.10 58614 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/capstone/camera_ws/install/libcamera/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/capstone/camera_ws/install/apriltag_ros:/home/capstone/camera_ws/install/camera_ros:/opt/ros/jazzy'}), 'shell': False}
+[6.416952] (-) TimerEvent: {}
+[6.473396] (camera_ros) StdoutLine: {'line': b'[ 15%] Built target utils\n'}
+[6.517085] (-) TimerEvent: {}
+[6.527062] (camera_ros) StdoutLine: {'line': b'[ 46%] Built target camera_node\n'}
+[6.527421] (camera_ros) StdoutLine: {'line': b'[ 84%] Built target param\n'}
+[6.597697] (camera_ros) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_component.so\x1b[0m\n'}
+[6.617228] (-) TimerEvent: {}
+[6.717661] (-) TimerEvent: {}
+[6.818257] (-) TimerEvent: {}
+[6.918781] (-) TimerEvent: {}
+[7.019346] (-) TimerEvent: {}
+[7.119924] (-) TimerEvent: {}
+[7.220407] (-) TimerEvent: {}
+[7.321492] (-) TimerEvent: {}
+[7.422147] (-) TimerEvent: {}
+[7.523174] (-) TimerEvent: {}
+[7.624327] (-) TimerEvent: {}
+[7.724732] (-) TimerEvent: {}
+[7.825376] (-) TimerEvent: {}
+[7.926557] (-) TimerEvent: {}
+[8.027439] (-) TimerEvent: {}
+[8.128259] (-) TimerEvent: {}
+[8.228811] (-) TimerEvent: {}
+[8.329447] (-) TimerEvent: {}
+[8.429993] (-) TimerEvent: {}
+[8.501964] (camera_ros) StdoutLine: {'line': b'[100%] Built target camera_component\n'}
+[8.524397] (camera_ros) CommandEnded: {'returncode': 0}
+[8.528758] (camera_ros) JobProgress: {'identifier': 'camera_ros', 'progress': 'install'}
+[8.530061] (-) TimerEvent: {}
+[8.547652] (camera_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/capstone/camera_ws/build/camera_ros'], 'cwd': '/home/capstone/camera_ws/build/camera_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'capstone', 'SSH_CLIENT': '172.20.10.10 58614 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/capstone/camera_ws/install/libcamera/lib:/home/capstone/camera_ws/install/apriltag_ros/lib:/home/capstone/camera_ws/install/camera_ros/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/capstone', 'OLDPWD': '/home/capstone', 'SSH_TTY': '/dev/pts/3', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/capstone/camera_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'capstone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/capstone/camera_ws/install/libcamera/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'PATH': '/home/capstone/camera_ws/install/libcamera/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '24', 'AMENT_PREFIX_PATH': '/home/capstone/camera_ws/install/apriltag_ros:/home/capstone/camera_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/capstone/camera_ws/build/camera_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.10 58614 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/capstone/camera_ws/install/libcamera/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/capstone/camera_ws/install/apriltag_ros:/home/capstone/camera_ws/install/camera_ros:/opt/ros/jazzy'}), 'shell': False}
+[8.560804] (camera_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.561482] (camera_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.562057] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/lib/camera_ros/camera_node\n'}
+[8.564923] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/environment/library_path.sh\n'}
+[8.565169] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/environment/library_path.dsv\n'}
+[8.566264] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros//launch/camera.launch.py\n'}
+[8.566524] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/ament_index/resource_index/package_run_dependencies/camera_ros\n'}
+[8.567392] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/ament_index/resource_index/parent_prefix_path/camera_ros\n'}
+[8.568015] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/environment/ament_prefix_path.sh\n'}
+[8.568273] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/environment/ament_prefix_path.dsv\n'}
+[8.568830] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/environment/path.sh\n'}
+[8.569078] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/environment/path.dsv\n'}
+[8.569696] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/local_setup.bash\n'}
+[8.570290] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/local_setup.sh\n'}
+[8.570843] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/local_setup.zsh\n'}
+[8.571087] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/local_setup.dsv\n'}
+[8.571250] (camera_ros) StdoutLine: {'line': b'-- Symlinking: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/package.dsv\n'}
+[8.590343] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/ament_index/resource_index/packages/camera_ros\n'}
+[8.593292] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/ament_index/resource_index/rclcpp_components/camera_ros\n'}
+[8.594140] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.594653] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.595164] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/cmake/camera_rosConfig.cmake\n'}
+[8.595697] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/cmake/camera_rosConfig-version.cmake\n'}
+[8.595962] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/package.xml\n'}
+[8.596668] (camera_ros) StdoutLine: {'line': b'-- Installing: /home/capstone/camera_ws/install/camera_ros/lib/libcamera_component.so\n'}
+[8.607777] (camera_ros) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/capstone/camera_ws/install/camera_ros/lib/libcamera_component.so" to ""\n'}
+[8.610604] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/cmake/camera_componentTargetsExport.cmake\n'}
+[8.610794] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/cmake/camera_componentTargetsExport-noconfig.cmake\n'}
+[8.613799] (camera_ros) CommandEnded: {'returncode': 0}
+[8.630253] (-) TimerEvent: {}
+[8.641548] (camera_ros) JobEnded: {'identifier': 'camera_ros', 'rc': 0}
+[8.643619] (apriltag_ros) JobStarted: {'identifier': 'apriltag_ros'}
+[8.656533] (apriltag_ros) JobProgress: {'identifier': 'apriltag_ros', 'progress': 'cmake'}
+[8.665236] (apriltag_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/capstone/camera_ws/src/apriltag_ros', '-DCMAKE_INSTALL_PREFIX=/home/capstone/camera_ws/install/apriltag_ros'], 'cwd': '/home/capstone/camera_ws/build/apriltag_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'capstone', 'SSH_CLIENT': '172.20.10.10 58614 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/capstone/camera_ws/install/camera_ros/lib:/home/capstone/camera_ws/install/libcamera/lib:/home/capstone/camera_ws/install/apriltag_ros/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/capstone', 'OLDPWD': '/home/capstone', 'SSH_TTY': '/dev/pts/3', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/capstone/camera_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'capstone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/capstone/camera_ws/install/libcamera/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'PATH': '/home/capstone/camera_ws/install/libcamera/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '24', 'AMENT_PREFIX_PATH': '/home/capstone/camera_ws/install/apriltag_ros:/home/capstone/camera_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/capstone/camera_ws/build/apriltag_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.10 58614 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/capstone/camera_ws/install/libcamera/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/capstone/camera_ws/install/camera_ros:/home/capstone/camera_ws/install/apriltag_ros:/opt/ros/jazzy'}), 'shell': False}
+[8.694748] (apriltag_ros) StdoutLine: {'line': b'-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[8.730410] (-) TimerEvent: {}
+[8.830813] (-) TimerEvent: {}
+[8.931249] (-) TimerEvent: {}
+[9.031619] (-) TimerEvent: {}
+[9.042094] (apriltag_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[9.096740] (apriltag_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[9.109961] (apriltag_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[9.126267] (apriltag_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.131697] (-) TimerEvent: {}
+[9.146021] (apriltag_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.229967] (apriltag_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[9.231783] (apriltag_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.231932] (-) TimerEvent: {}
+[9.321025] (apriltag_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.332048] (-) TimerEvent: {}
+[9.402671] (apriltag_ros) StdoutLine: {'line': b'-- Found rclcpp_components: 28.1.10 (/opt/ros/jazzy/share/rclcpp_components/cmake)\n'}
+[9.432152] (-) TimerEvent: {}
+[9.437001] (apriltag_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[9.511884] (apriltag_ros) StdoutLine: {'line': b'-- Found apriltag_msgs: 2.0.1 (/opt/ros/jazzy/share/apriltag_msgs/cmake)\n'}
+[9.532266] (-) TimerEvent: {}
+[9.556561] (apriltag_ros) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.12 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[9.632421] (-) TimerEvent: {}
+[9.732427] (apriltag_ros) StdoutLine: {'line': b'-- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)\n'}
+[9.732708] (-) TimerEvent: {}
+[9.748288] (apriltag_ros) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[9.802145] (apriltag_ros) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[9.832848] (-) TimerEvent: {}
+[9.933227] (-) TimerEvent: {}
+[9.996796] (apriltag_ros) StdoutLine: {'line': b"-- Added test 'clang_format' to check C / C++ code style\n"}
+[10.002594] (apriltag_ros) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.003019] (apriltag_ros) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[10.003193] (apriltag_ros) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.008412] (apriltag_ros) StdoutLine: {'line': b'-- Configuring done (1.3s)\n'}
+[10.033330] (-) TimerEvent: {}
+[10.087143] (apriltag_ros) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[10.114061] (apriltag_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/capstone/camera_ws/build/apriltag_ros\n'}
+[10.133448] (-) TimerEvent: {}
+[10.134454] (apriltag_ros) CommandEnded: {'returncode': 0}
+[10.135130] (apriltag_ros) JobProgress: {'identifier': 'apriltag_ros', 'progress': 'build'}
+[10.136390] (apriltag_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/capstone/camera_ws/build/apriltag_ros', '--', '-j4', '-l4'], 'cwd': '/home/capstone/camera_ws/build/apriltag_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'capstone', 'SSH_CLIENT': '172.20.10.10 58614 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/capstone/camera_ws/install/camera_ros/lib:/home/capstone/camera_ws/install/libcamera/lib:/home/capstone/camera_ws/install/apriltag_ros/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/capstone', 'OLDPWD': '/home/capstone', 'SSH_TTY': '/dev/pts/3', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/capstone/camera_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'capstone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/capstone/camera_ws/install/libcamera/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'PATH': '/home/capstone/camera_ws/install/libcamera/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '24', 'AMENT_PREFIX_PATH': '/home/capstone/camera_ws/install/apriltag_ros:/home/capstone/camera_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/capstone/camera_ws/build/apriltag_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.10 58614 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/capstone/camera_ws/install/libcamera/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/capstone/camera_ws/install/camera_ros:/home/capstone/camera_ws/install/apriltag_ros:/opt/ros/jazzy'}), 'shell': False}
+[10.233605] (-) TimerEvent: {}
+[10.240904] (apriltag_ros) StdoutLine: {'line': b'[ 20%] Built target tags\n'}
+[10.252085] (apriltag_ros) StdoutLine: {'line': b'[ 40%] Built target apriltag_node\n'}
+[10.257603] (apriltag_ros) StdoutLine: {'line': b'[ 60%] Built target conversion\n'}
+[10.310600] (apriltag_ros) StdoutLine: {'line': b'[ 80%] Built target pose_estimation\n'}
+[10.333730] (-) TimerEvent: {}
+[10.377829] (apriltag_ros) StdoutLine: {'line': b'[100%] Built target AprilTagNode\n'}
+[10.399154] (apriltag_ros) CommandEnded: {'returncode': 0}
+[10.402499] (apriltag_ros) JobProgress: {'identifier': 'apriltag_ros', 'progress': 'install'}
+[10.403714] (apriltag_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/capstone/camera_ws/build/apriltag_ros'], 'cwd': '/home/capstone/camera_ws/build/apriltag_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'capstone', 'SSH_CLIENT': '172.20.10.10 58614 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/capstone/camera_ws/install/camera_ros/lib:/home/capstone/camera_ws/install/libcamera/lib:/home/capstone/camera_ws/install/apriltag_ros/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/capstone', 'OLDPWD': '/home/capstone', 'SSH_TTY': '/dev/pts/3', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/capstone/camera_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'capstone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/capstone/camera_ws/install/libcamera/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'PATH': '/home/capstone/camera_ws/install/libcamera/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '24', 'AMENT_PREFIX_PATH': '/home/capstone/camera_ws/install/apriltag_ros:/home/capstone/camera_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/capstone/camera_ws/build/apriltag_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.10 58614 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/capstone/camera_ws/install/libcamera/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/capstone/camera_ws/install/camera_ros:/home/capstone/camera_ws/install/apriltag_ros:/opt/ros/jazzy'}), 'shell': False}
+[10.417252] (apriltag_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.418046] (apriltag_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.418538] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/apriltag_ros/lib/apriltag_ros/apriltag_node\n'}
+[10.421483] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.sh\n'}
+[10.421715] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.dsv\n'}
+[10.422067] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/apriltag_ros/lib/libAprilTagNode.so\n'}
+[10.422508] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_36h11.yaml\n'}
+[10.423531] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/launch/camera_36h11.launch.yml\n'}
+[10.423812] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/apriltag_ros/share/ament_index/resource_index/package_run_dependencies/apriltag_ros\n'}
+[10.424889] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/apriltag_ros/share/ament_index/resource_index/parent_prefix_path/apriltag_ros\n'}
+[10.425416] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.sh\n'}
+[10.425621] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.dsv\n'}
+[10.426134] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/environment/path.sh\n'}
+[10.426342] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/environment/path.dsv\n'}
+[10.426818] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/local_setup.bash\n'}
+[10.427352] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/local_setup.sh\n'}
+[10.427917] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/local_setup.zsh\n'}
+[10.428141] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/local_setup.dsv\n'}
+[10.428287] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/package.dsv\n'}
+[10.433843] (-) TimerEvent: {}
+[10.446630] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/apriltag_ros/share/ament_index/resource_index/packages/apriltag_ros\n'}
+[10.449593] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/apriltag_ros/share/ament_index/resource_index/rclcpp_components/apriltag_ros\n'}
+[10.450419] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig.cmake\n'}
+[10.450880] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig-version.cmake\n'}
+[10.451088] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/capstone/camera_ws/install/apriltag_ros/share/apriltag_ros/package.xml\n'}
+[10.454225] (apriltag_ros) CommandEnded: {'returncode': 0}
+[10.493768] (apriltag_ros) JobEnded: {'identifier': 'apriltag_ros', 'rc': 0}
+[10.495002] (-) EventReactorShutdown: {}

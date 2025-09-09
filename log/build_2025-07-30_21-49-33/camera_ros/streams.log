@@ -1,0 +1,69 @@
+[0.019s] Invoking command in '/home/capstone/camera_ws/build/camera_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy LD_LIBRARY_PATH=/home/capstone/camera_ws/install/libcamera/lib:/home/capstone/camera_ws/install/apriltag_ros/lib:/home/capstone/camera_ws/install/camera_ros/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib /usr/bin/cmake /home/capstone/camera_ws/src/camera_ros -DCMAKE_INSTALL_PREFIX=/home/capstone/camera_ws/install/camera_ros
+[0.234s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.646s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.711s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.788s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.812s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.847s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.882s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.030s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.035s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.169s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.320s] -- Found rclcpp_components: 28.1.10 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[1.386s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.506s] -- Found camera_info_manager: 5.1.7 (/opt/ros/jazzy/share/camera_info_manager/cmake)
+[1.517s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[1.592s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[1.628s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.875s] -- Added test 'clang_format' to check C / C++ code style
+[1.882s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.883s] -- Configured cppcheck include dirs: 
+[1.883s] -- Configured cppcheck exclude dirs and/or files: 
+[1.886s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.886s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.888s] -- Added test 'lint_cmake' to check CMake code style
+[1.890s] -- Added test 'mypy' to statically type check Python code.
+[1.892s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.893s] -- Added test 'pyflakes' to perform static code analysis on Python code
+[1.895s] -- Added test 'xmllint' to check XML markup files
+[1.901s] -- Configuring done (1.7s)
+[1.997s] -- Generating done (0.1s)
+[2.019s] -- Build files have been written to: /home/capstone/camera_ws/build/camera_ros
+[2.047s] Invoked command in '/home/capstone/camera_ws/build/camera_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy LD_LIBRARY_PATH=/home/capstone/camera_ws/install/libcamera/lib:/home/capstone/camera_ws/install/apriltag_ros/lib:/home/capstone/camera_ws/install/camera_ros/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib /usr/bin/cmake /home/capstone/camera_ws/src/camera_ros -DCMAKE_INSTALL_PREFIX=/home/capstone/camera_ws/install/camera_ros
+[2.050s] Invoking command in '/home/capstone/camera_ws/build/camera_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy LD_LIBRARY_PATH=/home/capstone/camera_ws/install/libcamera/lib:/home/capstone/camera_ws/install/apriltag_ros/lib:/home/capstone/camera_ws/install/camera_ros/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/capstone/camera_ws/build/camera_ros -- -j4 -l4
+[2.171s] [ 15%] Built target utils
+[2.225s] [ 46%] Built target camera_node
+[2.225s] [ 84%] Built target param
+[2.295s] [ 92%] [32m[1mLinking CXX shared library libcamera_component.so[0m
+[4.200s] [100%] Built target camera_component
+[4.222s] Invoked command in '/home/capstone/camera_ws/build/camera_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy LD_LIBRARY_PATH=/home/capstone/camera_ws/install/libcamera/lib:/home/capstone/camera_ws/install/apriltag_ros/lib:/home/capstone/camera_ws/install/camera_ros/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/capstone/camera_ws/build/camera_ros -- -j4 -l4
+[4.246s] Invoking command in '/home/capstone/camera_ws/build/camera_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy LD_LIBRARY_PATH=/home/capstone/camera_ws/install/libcamera/lib:/home/capstone/camera_ws/install/apriltag_ros/lib:/home/capstone/camera_ws/install/camera_ros/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib /usr/bin/cmake --install /home/capstone/camera_ws/build/camera_ros
+[4.258s] -- Install configuration: ""
+[4.259s] -- Execute custom install script
+[4.260s] -- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/lib/camera_ros/camera_node
+[4.263s] -- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/environment/library_path.sh
+[4.263s] -- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/environment/library_path.dsv
+[4.264s] -- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros//launch/camera.launch.py
+[4.264s] -- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/ament_index/resource_index/package_run_dependencies/camera_ros
+[4.265s] -- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/ament_index/resource_index/parent_prefix_path/camera_ros
+[4.266s] -- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/environment/ament_prefix_path.sh
+[4.266s] -- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/environment/ament_prefix_path.dsv
+[4.266s] -- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/environment/path.sh
+[4.267s] -- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/environment/path.dsv
+[4.267s] -- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/local_setup.bash
+[4.268s] -- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/local_setup.sh
+[4.268s] -- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/local_setup.zsh
+[4.269s] -- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/local_setup.dsv
+[4.269s] -- Symlinking: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/package.dsv
+[4.288s] -- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/ament_index/resource_index/packages/camera_ros
+[4.291s] -- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/ament_index/resource_index/rclcpp_components/camera_ros
+[4.292s] -- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/cmake/ament_cmake_export_targets-extras.cmake
+[4.292s] -- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.293s] -- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/cmake/camera_rosConfig.cmake
+[4.293s] -- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/cmake/camera_rosConfig-version.cmake
+[4.294s] -- Up-to-date symlink: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/package.xml
+[4.294s] -- Installing: /home/capstone/camera_ws/install/camera_ros/lib/libcamera_component.so
+[4.306s] -- Set non-toolchain portion of runtime path of "/home/capstone/camera_ws/install/camera_ros/lib/libcamera_component.so" to ""
+[4.308s] -- Up-to-date: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/cmake/camera_componentTargetsExport.cmake
+[4.308s] -- Up-to-date: /home/capstone/camera_ws/install/camera_ros/share/camera_ros/cmake/camera_componentTargetsExport-noconfig.cmake
+[4.312s] Invoked command in '/home/capstone/camera_ws/build/camera_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy LD_LIBRARY_PATH=/home/capstone/camera_ws/install/libcamera/lib:/home/capstone/camera_ws/install/apriltag_ros/lib:/home/capstone/camera_ws/install/camera_ros/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib /usr/bin/cmake --install /home/capstone/camera_ws/build/camera_ros

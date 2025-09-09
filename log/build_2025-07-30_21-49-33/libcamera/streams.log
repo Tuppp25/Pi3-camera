@@ -1,0 +1,175 @@
+[0.032s] Invoking command in '/home/capstone/camera_ws/build/libcamera': /usr/bin/meson compile
+[0.413s] [1;32mINFO:[0m autodetecting backend as ninja
+[0.420s] [1;32mINFO:[0m calculating backend command to run: /usr/bin/ninja
+[0.562s] 
+[0.563s] [0/27] Generating subprojects/libpisp/src/version.cpp with a custom command[K
+[0.929s] [0/27] Generating src/libcamera/version.cpp with a custom command[K
+[0.929s] [1/27] Generating subprojects/libpisp/src/version.cpp with a custom command[K
+[1.948s] [1/27] Compiling C++ object subprojects/libpisp/src/libpisp.so.1.2.0.p/meson-generated_.._version.cpp.o[K
+[1.948s] [2/27] Compiling C++ object subprojects/libpisp/src/libpisp.so.1.2.0.p/meson-generated_.._version.cpp.o[K
+[2.267s] [2/27] Linking target subprojects/libpisp/src/libpisp.so.1.2.0[K
+[2.307s] [3/27] Generating src/libcamera/version.cpp with a custom command[K
+[2.307s] [4/26] Linking target subprojects/libpisp/src/libpisp.so.1.2.0[K
+[2.472s] [4/26] Generating symbol file subprojects/libpisp/src/libpisp.so.1.2.0.p/libpisp.so.1.2.0.symbols[K
+[2.472s] [5/26] Generating symbol file subprojects/libpisp/src/libpisp.so.1.2.0.p/libpisp.so.1.2.0.symbols[K
+[2.601s] Invoked command in '/home/capstone/camera_ws/build/libcamera' returned '0': /usr/bin/meson compile
+[2.610s] Invoking command in '/home/capstone/camera_ws/build/libcamera': /usr/bin/meson install
+[2.972s] ninja: Entering directory `/home/capstone/camera_ws/build/libcamera'
+[2.990s] 
+[2.990s] [0/27] Generating subprojects/libpisp/src/version.cpp with a custom command[K
+[3.170s] [0/27] Generating src/libcamera/version.cpp with a custom command[K
+[3.170s] [1/27] Generating subprojects/libpisp/src/version.cpp with a custom command[K
+[3.214s] [1/27] Compiling C++ object subprojects/libpisp/src/libpisp.so.1.2.0.p/meson-generated_.._version.cpp.o[K
+[3.501s] [2/27] Generating src/libcamera/version.cpp with a custom command[K
+[3.502s] [3/26] Compiling C++ object subprojects/libpisp/src/libpisp.so.1.2.0.p/meson-generated_.._version.cpp.o[K
+[3.673s] [3/26] Linking target subprojects/libpisp/src/libpisp.so.1.2.0[K
+[3.673s] [4/26] Linking target subprojects/libpisp/src/libpisp.so.1.2.0[K
+[3.810s] [4/26] Generating symbol file subprojects/libpisp/src/libpisp.so.1.2.0.p/libpisp.so.1.2.0.symbols[K
+[3.811s] [5/26] Generating symbol file subprojects/libpisp/src/libpisp.so.1.2.0.p/libpisp.so.1.2.0.symbols[K
+[3.819s] Installing include/libcamera/ipa/core_ipa_interface.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/ipa
+[3.819s] Installing include/libcamera/ipa/mali-c55_ipa_interface.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/ipa
+[3.820s] Installing include/libcamera/ipa/rkisp1_ipa_interface.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/ipa
+[3.821s] Installing include/libcamera/ipa/raspberrypi_ipa_interface.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/ipa
+[3.821s] Installing include/libcamera/ipa/soft_ipa_interface.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/ipa
+[3.822s] Installing include/libcamera/control_ids.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.823s] Installing include/libcamera/property_ids.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.823s] Installing include/libcamera/formats.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.824s] Installing include/libcamera/libcamera.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.825s] Installing src/libcamera/base/libcamera-base.so.0.5.1 to /home/capstone/camera_ws/install/libcamera/lib
+[3.830s] Installing subprojects/libpisp/src/libpisp.so.1.2.0 to /home/capstone/camera_ws/install/libcamera/lib
+[3.832s] Installing src/libcamera/libcamera.so.0.5.1 to /home/capstone/camera_ws/install/libcamera/lib
+[3.873s] Installing src/libcamera/proxy/worker/mali-c55_ipa_proxy to /home/capstone/camera_ws/install/libcamera/libexec/libcamera
+[3.877s] Installing src/libcamera/proxy/worker/rkisp1_ipa_proxy to /home/capstone/camera_ws/install/libcamera/libexec/libcamera
+[3.880s] Installing src/libcamera/proxy/worker/raspberrypi_ipa_proxy to /home/capstone/camera_ws/install/libcamera/libexec/libcamera
+[3.883s] Installing src/libcamera/proxy/worker/soft_ipa_proxy to /home/capstone/camera_ws/install/libcamera/libexec/libcamera
+[3.887s] Installing src/ipa/mali-c55/ipa_mali_c55.so to /home/capstone/camera_ws/install/libcamera/lib/libcamera/ipa
+[3.893s] Installing src/ipa/rkisp1/ipa_rkisp1.so to /home/capstone/camera_ws/install/libcamera/lib/libcamera/ipa
+[3.902s] Installing src/ipa/rpi/pisp/ipa_rpi_pisp.so to /home/capstone/camera_ws/install/libcamera/lib/libcamera/ipa
+[3.916s] Installing src/ipa/rpi/vc4/ipa_rpi_vc4.so to /home/capstone/camera_ws/install/libcamera/lib/libcamera/ipa
+[3.930s] Installing src/ipa/simple/ipa_soft_simple.so to /home/capstone/camera_ws/install/libcamera/lib/libcamera/ipa
+[3.935s] Installing src/apps/lc-compliance/lc-compliance to /home/capstone/camera_ws/install/libcamera/bin
+[3.947s] Installing src/apps/cam/cam to /home/capstone/camera_ws/install/libcamera/bin
+[3.954s] Installing src/py/libcamera/_libcamera.so to /home/capstone/camera_ws/install/libcamera/lib/python3.12/site-packages/libcamera
+[3.980s] Installing src/v4l2/v4l2-compat.so to /home/capstone/camera_ws/install/libcamera/libexec/libcamera
+[3.984s] Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/base/bound_method.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/base
+[3.985s] Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/base/class.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/base
+[3.985s] Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/base/flags.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/base
+[3.985s] Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/base/object.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/base
+[3.986s] Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/base/shared_fd.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/base
+[3.986s] Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/base/signal.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/base
+[3.986s] Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/base/span.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/base
+[3.986s] Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/base/unique_fd.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/base
+[3.987s] Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/ipa/ipa_controls.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/ipa
+[3.987s] Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/ipa/ipa_interface.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/ipa
+[3.987s] Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/ipa/ipa_module_info.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera/ipa
+[3.987s] Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/camera.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.988s] Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/camera_manager.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.988s] Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/color_space.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.988s] Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/controls.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.988s] Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/fence.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.989s] Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/framebuffer.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.989s] Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/framebuffer_allocator.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.989s] Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/geometry.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.989s] Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/logging.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.989s] Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/orientation.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.990s] Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/pixel_format.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.990s] Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/request.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.990s] Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/stream.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.990s] Installing /home/capstone/camera_ws/src/libcamera/include/libcamera/transform.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.991s] Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/common/pisp_common.h to /home/capstone/camera_ws/install/libcamera/include/libpisp/common
+[3.992s] Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/common/logging.hpp to /home/capstone/camera_ws/install/libcamera/include/libpisp/common
+[3.993s] Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/common/shm_mutex.hpp to /home/capstone/camera_ws/install/libcamera/include/libpisp/common
+[3.993s] Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/common/utils.hpp to /home/capstone/camera_ws/install/libcamera/include/libpisp/common
+[3.993s] Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/common/version.hpp to /home/capstone/camera_ws/install/libcamera/include/libpisp/common
+[3.994s] Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/variants/variant.hpp to /home/capstone/camera_ws/install/libcamera/include/libpisp/variants
+[3.994s] Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/frontend/frontend.hpp to /home/capstone/camera_ws/install/libcamera/include/libpisp/frontend
+[3.995s] Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/frontend/pisp_fe_config.h to /home/capstone/camera_ws/install/libcamera/include/libpisp/frontend
+[3.995s] Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/frontend/pisp_statistics.h to /home/capstone/camera_ws/install/libcamera/include/libpisp/frontend
+[3.996s] Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/backend/backend.hpp to /home/capstone/camera_ws/install/libcamera/include/libpisp/backend
+[3.996s] Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/backend/pisp_be_config.h to /home/capstone/camera_ws/install/libcamera/include/libpisp/backend
+[3.997s] Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/backend/tiling/pisp_tiling.hpp to /home/capstone/camera_ws/install/libcamera/include/libpisp/backend/tiling
+[3.997s] Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/backend/tiling/types.hpp to /home/capstone/camera_ws/install/libcamera/include/libpisp/backend/tiling
+[3.997s] Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/helpers/backend_device.hpp to /home/capstone/camera_ws/install/libcamera/include/libpisp/helpers
+[3.998s] Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/helpers/device_fd.hpp to /home/capstone/camera_ws/install/libcamera/include/libpisp/helpers
+[3.998s] Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/helpers/media_device.hpp to /home/capstone/camera_ws/install/libcamera/include/libpisp/helpers
+[3.998s] Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/helpers/v4l2_device.hpp to /home/capstone/camera_ws/install/libcamera/include/libpisp/helpers
+[3.998s] Installing /home/capstone/camera_ws/build/libcamera/include/libcamera/version.h to /home/capstone/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.999s] Installing /home/capstone/camera_ws/build/libcamera/meson-private/libcamera-base.pc to /home/capstone/camera_ws/install/libcamera/lib/pkgconfig
+[4.000s] Installing /home/capstone/camera_ws/src/libcamera/subprojects/libpisp/src/libpisp/backend/backend_default_config.json to /home/capstone/camera_ws/install/libcamera/share/libpisp
+[4.000s] Installing /home/capstone/camera_ws/build/libcamera/meson-private/libpisp.pc to /home/capstone/camera_ws/install/libcamera/lib/pkgconfig
+[4.002s] Installing /home/capstone/camera_ws/src/libcamera/src/libcamera/pipeline/rpi/pisp/data/example.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/pipeline/rpi/pisp
+[4.002s] Installing /home/capstone/camera_ws/src/libcamera/src/libcamera/pipeline/rpi/vc4/data/example.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/pipeline/rpi/vc4
+[4.002s] Installing /home/capstone/camera_ws/src/libcamera/src/libcamera/pipeline/rpi/vc4/data/rpi_apps.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/pipeline/rpi/vc4
+[4.003s] Installing /home/capstone/camera_ws/build/libcamera/meson-private/libcamera.pc to /home/capstone/camera_ws/install/libcamera/lib/pkgconfig
+[4.004s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/mali-c55/data/imx415.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/mali-c55
+[4.004s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/mali-c55/data/uncalibrated.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/mali-c55
+[4.005s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rkisp1/data/imx219.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1
+[4.005s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rkisp1/data/imx258.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1
+[4.005s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rkisp1/data/ov2685.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1
+[4.005s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rkisp1/data/ov4689.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1
+[4.005s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rkisp1/data/ov5640.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1
+[4.006s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rkisp1/data/ov5695.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1
+[4.006s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rkisp1/data/ov8858.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1
+[4.006s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rkisp1/data/uncalibrated.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1
+[4.007s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx219.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[4.007s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx219_noir.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[4.007s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx283.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[4.008s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx290.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[4.008s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx296.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[4.008s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx296_mono.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[4.009s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx378.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[4.009s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx415.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[4.009s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx462.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[4.010s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx477.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[4.010s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx477_noir.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[4.010s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx477_scientific.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[4.011s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx500.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[4.011s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx519.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[4.011s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx708.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[4.013s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx708_noir.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[4.013s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx708_wide.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[4.013s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx708_wide_noir.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[4.014s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/ov5647.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[4.014s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/ov5647_noir.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[4.014s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/ov64a40.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[4.015s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/ov9281_mono.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[4.015s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/se327m12.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[4.015s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/uncalibrated.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[4.018s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx219.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[4.018s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx219_noir.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[4.018s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx283.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[4.019s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx290.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[4.019s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx296.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[4.019s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx296_mono.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[4.019s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx327.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[4.020s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx378.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[4.020s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx415.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[4.020s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx462.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[4.020s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx477.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[4.020s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx477_noir.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[4.021s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx477_scientific.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[4.021s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx500.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[4.021s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx519.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[4.021s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx708.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[4.021s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx708_noir.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[4.022s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx708_wide.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[4.022s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx708_wide_noir.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[4.022s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/ov5647.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[4.023s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/ov5647_noir.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[4.023s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/ov64a40.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[4.023s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/ov7251_mono.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[4.023s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/ov9281_mono.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[4.023s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/se327m12.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[4.024s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/uncalibrated.json to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[4.024s] Installing /home/capstone/camera_ws/src/libcamera/src/ipa/simple/data/uncalibrated.yaml to /home/capstone/camera_ws/install/libcamera/share/libcamera/ipa/simple
+[4.024s] Installing /home/capstone/camera_ws/src/libcamera/src/py/libcamera/__init__.py to /home/capstone/camera_ws/install/libcamera/lib/python3.12/site-packages/libcamera
+[4.024s] Installing /home/capstone/camera_ws/build/libcamera/src/v4l2/libcamerify to /home/capstone/camera_ws/install/libcamera/bin
+[4.025s] Installing symlink pointing to libcamera-base.so.0.5.1 to /home/capstone/camera_ws/install/libcamera/lib/libcamera-base.so.0.5
+[4.025s] Installing symlink pointing to libcamera-base.so.0.5 to /home/capstone/camera_ws/install/libcamera/lib/libcamera-base.so
+[4.025s] Installing symlink pointing to libpisp.so.1.2.0 to /home/capstone/camera_ws/install/libcamera/lib/libpisp.so.1
+[4.025s] Installing symlink pointing to libpisp.so.1 to /home/capstone/camera_ws/install/libcamera/lib/libpisp.so
+[4.026s] Installing symlink pointing to libcamera.so.0.5.1 to /home/capstone/camera_ws/install/libcamera/lib/libcamera.so.0.5
+[4.026s] Installing symlink pointing to libcamera.so.0.5 to /home/capstone/camera_ws/install/libcamera/lib/libcamera.so
+[4.026s] Running custom install script '/home/capstone/camera_ws/src/libcamera/src/ipa/ipa-sign-install.sh /home/capstone/camera_ws/build/libcamera/src/ipa-priv-key.pem lib/libcamera/ipa/ipa_mali_c55.so lib/libcamera/ipa/ipa_rkisp1.so lib/libcamera/ipa/ipa_rpi_pisp.so lib/libcamera/ipa/ipa_rpi_vc4.so lib/libcamera/ipa/ipa_soft_simple.so'
+[4.029s] Regenerating IPA modules signatures
+[4.248s] Invoked command in '/home/capstone/camera_ws/build/libcamera' returned '0': /usr/bin/meson install

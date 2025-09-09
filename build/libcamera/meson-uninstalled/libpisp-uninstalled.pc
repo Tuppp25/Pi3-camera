@@ -1,0 +1,11 @@
+prefix=/home/capstone/camera_ws/build/libcamera
+includedir=${prefix}/include
+libdir=${prefix}/lib
+srcdir=/home/capstone/camera_ws/src/libcamera
+
+Name: libpisp
+Description: PiSP Library
+Version: 1.2.0
+Libs: -L${prefix}/subprojects/libpisp/src -lpisp
+Libs.private: -pthread -ldl
+Cflags: -I${prefix}/subprojects/libpisp/src -I${srcdir}/subprojects/libpisp/src -I${prefix}/subprojects/libpisp/src/libpisp -I${srcdir}/subprojects/libpisp/src/libpisp -I${prefix}/subprojects/nlohmann_json-3.11.2/single_include -I${srcdir}/subprojects/nlohmann_json-3.11.2/single_include -I${prefix}/subprojects/libpisp/src -I${srcdir}/subprojects/libpisp/src

@@ -1,0 +1,1 @@
+/home/capstone/camera_ws/build/camera_ros/ament_cmake_core/camera_rosConfig.cmake
